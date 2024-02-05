@@ -1,7 +1,7 @@
 export default function About() {
     return (
       <div>
-        <h1>Home Page</h1>
+        <h1>About Me</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
           velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi

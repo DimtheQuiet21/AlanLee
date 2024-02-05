@@ -1,9 +1,12 @@
 import { useState } from 'react';
 import Nav from '../UI/Nav';
+import Head from '../UI/Head';
 import Home from './pages/Home';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
+
 
 export default function Container() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -28,7 +31,9 @@ export default function Container() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
+
     <div>
+      <Head />
       {/* We are passing the currentPage from state and the function to update it */}
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
