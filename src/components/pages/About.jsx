@@ -1,19 +1,26 @@
 export default function About() {
+
+  const blurb_style = {
+    "font-family" : "Helvetica",
+  };
+  const image_style = {
+    'backgroundImage':'url("/src/assets/images/Oman.png")',
+    'backgroundSize':'cover',
+    "min-width":"300px",
+    "max-width":"900px"
+  };
+
+
     return (
       <div>
         <h1>About Me</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-          velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-          ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-          non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-          ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-          rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-          tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-          porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-          vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-          fames ac ante ipsum primis in faucibus.
-        </p>
+        <div className = "flex-column">
+          <img style = {image_style} src = "/src/assets/images/OmanArcade.png"></img>
+          <p style = {blurb_style}>
+            My name is Alan Lee. I'm a full stack developer from Birmingham, AL who is living in the Midwest. I am currently completing my PhD in Anthropology (Archaeology) and have a Master's in Chemistry. For the past eight years, I have been studying ancient blacksmithing of the Kushan Empire. 
+          </p>
+        </div>
+
       </div>
     );
   }

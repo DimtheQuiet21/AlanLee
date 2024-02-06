@@ -1,0 +1,17 @@
+.nav-tabs{
+    border-radius: 5px!important;
+    --bs-nav-tabs-link-active-color:rgb(237, 175, 33);
+    --bs-nav-tabs-link-active-bg:rgb(6, 68, 17);
+    --bs-nav-tabs-link-active-border-color:rgb(237, 175, 33);
+    font-family : 'Alegreya';
+    font-size: 1rem;
+    margin-bottom : 2rem;
+    border-bottom: 1px solid rgb(237, 175, 33)
+
+}
+
+.nav {
+    --bs-nav-link-color:rgb(249, 236, 207);
+    --bs-nav-link-hover-color:white;
+    font-family : 'Alegreya';
+}
