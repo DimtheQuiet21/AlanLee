@@ -15,3 +15,15 @@
     --bs-nav-link-hover-color:white;
     font-family : 'Alegreya';
 }
+
+@media (min-width: 768px) {
+    .flex-direction-switch {
+      flex-direction: row;
+    }
+  }
+  
+@media (max-width: 767px) {
+    .flex-direction-switch {
+      flex-direction: column;
+    }
+}
