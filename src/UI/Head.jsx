@@ -3,7 +3,10 @@ const font = 'Alegreya';
 const header_style = {
     'background-color': 'rgb(197, 20, 20)',
     'border-radius': '10px',
-    'box-shadow': '0 0 10px rgba(0, 0, 0, 0.1)'
+    'box-shadow': '0 0 10px rgba(0, 0, 0, 0.1)',
+    'background-image':'url("src/assets/images/HeraldryGoldLeafBorder.png")',
+    'background-size': 'cover',
+    'align-items':'center'
 }
 
 const title_style = {
