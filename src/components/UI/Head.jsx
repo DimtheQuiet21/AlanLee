@@ -34,7 +34,7 @@ function Head() {
                 <div 
                     className ="d-flex flex-column align-items-start justify-content-center">
                     <p style = {subtitle_style}>lan</p>
-                    <p style = {subscript_style}>Full-Stack</p>
+                    <p style = {subscript_style}>FullStack</p>
                 </div>
                 <p style = {title_style}>L</p>
                 <div 

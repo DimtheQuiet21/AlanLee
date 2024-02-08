@@ -3,7 +3,7 @@ function Nav({ currentPage, handlePageChange }) {
     return (
       <ul 
       className="nav nav-tabs justify-content-center">
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a
             href="#home"
             onClick={() => handlePageChange('Home')}
@@ -12,6 +12,16 @@ function Nav({ currentPage, handlePageChange }) {
             className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
           >
             Home
+          </a>
+        </li> */}
+        <li className="nav-item">
+          <a
+            href="#about"
+            onClick={() => handlePageChange('About')}
+            // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          >
+            About Me
           </a>
         </li>
 
@@ -25,18 +35,7 @@ function Nav({ currentPage, handlePageChange }) {
             My Portfolio
           </a>
         </li>
-
-        <li className="nav-item">
-          <a
-            href="#about"
-            onClick={() => handlePageChange('About')}
-            // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-          >
-            About Me
-          </a>
-        </li>
-
+        
         <li className="nav-item">
           <a
             href="#resume"
