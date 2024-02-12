@@ -15,7 +15,7 @@ const iconstyle = {
 const containerstyle = {
   "width" : "75vw",
   "height": "100vw",
-  "backgroundImage": `url('./src/assets/images/CV.png')`,
+  "backgroundImage": `url('/assets/images/CV.png')`,
   "backgroundSize": "cover",
   "backgroundRepeat": "no-repeat",
   "padding":"0px"
@@ -30,7 +30,7 @@ const overlaystyle = {
 }
 
 async function onButtonClick () {
-  const url = "./src/assets/pdfs/LeeACV2022.pdf";
+  const url = "./public/assets/pdfs/LeeACV2022.pdf";
     fetch(url, {
        method: 'GET', 
     })

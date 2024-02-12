@@ -28,7 +28,7 @@ export default function Container() {
       'backgroundColor': 'rgb(8, 138, 23)',
       'boxShadow': '0 0 10px rgba(0, 0, 0, 0.1)',
       'border': '20px solid transparent',
-      'borderImageSource':'url("src/assets/images/border1.png")',
+      'borderImageSource':'url("/assets/images/border1.png")',
       'borderImageSlice': '90', /* Define slicing and fill */
       'borderImageWidth': '45px', /* Set border image width */
       'borderImageRepeat': 'round', /* Set border image repeat mode */
