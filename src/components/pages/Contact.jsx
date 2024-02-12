@@ -40,10 +40,10 @@ export default function Contact() {
           <br></br>
           <div className ="form">
             <h4>Name: </h4>
-            <input id = "formName" placeholder="(Required)" style = {{ width: "-webkit-fill-available"}}></input>
+            <input type = "text" id = "formName" placeholder="(Required)" style = {{ width: "-webkit-fill-available"}}/>
             <br></br>
             <h4>Email:</h4>
-            <input id = "formEmail" placeholder="(Required)" style = {{ width: "-webkit-fill-available"}}></input>
+            <input type = "text" id = "formEmail" placeholder="(Required)" style = {{ width: "-webkit-fill-available"}}/>
             <br></br>
             <h4>Message:</h4>
             <input 
