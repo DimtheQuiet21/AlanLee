@@ -23,6 +23,9 @@
 ## Description 
 This is the professional portfolio of Alan Lee. It was made as a React Application through Vite and Netlify. It contains the current and most advanced projects that Alan Lee has been apart of along with the project repositories. 
 
+## Credits
+The basic boilerplate of the REACT main page was set up by the EDX Bootcamp from the Extended University of Wisconsin Campus. They were responsible for the code that handled form page changes and conditional rendering. All other aspects of this code were made by Alan Lee.
+
 ## Installation
 N/A
 
