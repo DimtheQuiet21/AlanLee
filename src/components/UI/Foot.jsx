@@ -14,7 +14,7 @@ export default function Foot () {
         else if (site == "stack") {
         window.location.href = "https://stackoverflow.com/users/14082899/dimthequiet";
         } else {
-        window.location.href = "https://www.youtube.com/channel/UCJCkDuETIZuyNnz8PazdmLA";
+        window.location.href = "https://www.youtube.com/@alanlee1088/playlists";
         };
     };
 
