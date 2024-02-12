@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Head from './UI/Head';
+import Foot from './UI/Foot';
 import Nav from './UI/Nav';
 import About from './pages/About';
 import Resume from './pages/Resume';
@@ -42,7 +43,11 @@ export default function Container() {
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} /> 
       </header>
       <br></br>
-      <main className="mx-3">{renderPage()}</main>  
+      <main className="mx-3">{renderPage()}</main>
+      <br></br>
+      <footer>
+        <Foot />
+      </footer>  
     </div>
     
   );
