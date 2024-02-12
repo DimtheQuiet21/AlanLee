@@ -43,7 +43,7 @@ Link to Repository (Netlify) https://app.netlify.com/sites/lambent-cucurucho-dce
 
 Link to Repository (GitHub) https://github.com/DimtheQuiet21/AlanLee 
 
-![Screenshot of Alan Lee's React Portfolio](./public/assets/images/screenshot.png)
+![Screenshot of Alan Lee's React Portfolio](./public/assets/images/screenshot.PNG)
 
 ## Questions?
 Please Contact Alan Lee at aflee227@gmail.com if you have additional questions.
