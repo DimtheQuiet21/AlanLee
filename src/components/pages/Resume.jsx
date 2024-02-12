@@ -30,7 +30,7 @@ const overlaystyle = {
 }
 
 async function onButtonClick () {
-  const url = "./public/assets/pdfs/LeeACV2022.pdf";
+  const url = "./assets/pdfs/LeeACV2022.pdf";
     fetch(url, {
        method: 'GET', 
     })

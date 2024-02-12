@@ -25,7 +25,7 @@ export default function About() {
       <div>
         <h1 className = "text-center">About Me</h1>
         <div className = "d-flex align-items-center flex-direction-switch">
-          <img style = {image_style} src = "/public/assets/images/Sepia.png"></img>
+          <img style = {image_style} src = "/assets/images/Sepia.png"></img>
           <p style = {blurb_style}>
             {biograph}
           </p>
