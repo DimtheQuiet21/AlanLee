@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
 export default function Contact() {
 
   async function submitMessage (event) {
@@ -7,7 +10,7 @@ export default function Contact() {
     const formEmail = document.getElementById("formEmail").value
     const formMessage = document.getElementById("formMessage").value
     const emailCheck = /^[\w.%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
-    const subject = `Message to from ${formName} about FullStackDevelopment`
+    const subject = `Message from ${formName} about FullStackDevelopment`
     
     if (emailCheck.test(formEmail)) {
       try {
@@ -24,8 +27,16 @@ export default function Contact() {
       <div>
         <h1 className = "text-center">Contact Me</h1>
         <div className = "container">
-          <h4>Please Reach Out and Send me a Message!</h4>
-          <h6>I'll try to get back to you as soon as possible</h6>
+          <div className = "d-flex">
+            <div className = "container">
+              <h4>Please Reach Out and Send me a Message!</h4>
+              <h6>I'll try to get back to you as soon as possible</h6>
+            </div>
+            <button className = "btn btn-primary align-items-center d-flex flex-column custom-btn" onClick={submitMessage}>
+              <FontAwesomeIcon icon={faEnvelope} />
+              <span>Send Email</span>
+            </button>
+          </div>
           <br></br>
           <div className ="form">
             <h4>Name: </h4>
@@ -41,11 +52,12 @@ export default function Contact() {
               style = {
                 {
                   width: "-webkit-fill-available",
-                  height: "20vw"
+                  height: "20vw",
+                  padding: "5px",
+                  textAlign: "left",
+                  verticalAlign: "top"
                 }
               }> </input>
-            <br></br>
-            <button className = "btn" onClick={submitMessage}>Submit</button>
           </div>
         </div>
       </div>

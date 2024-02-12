@@ -3,11 +3,14 @@ function KeywordList (props) {
     const list = props.list;
 
     return ( 
-        <ul>
-            {list.map ((word,index) => (
-                <li id = {index} key = {index}>{word}</li>
-            ))}
-        </ul>
+        <div className="col">
+            <ul className = "d-flex justify-content-center" style = {{flexWrap:"wrap"}}>
+                {list.map ((word,index) => (
+                    <li className ="m-3" id = {index} key = {index}>{word}</li>
+                ))}
+            </ul>
+        </div>
+
     )
 }
 
