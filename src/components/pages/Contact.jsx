@@ -57,7 +57,7 @@ export default function Contact() {
                   textAlign: "left",
                   verticalAlign: "top"
                 }
-              }> </input>
+              }/>
           </div>
         </div>
       </div>
