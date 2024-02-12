@@ -32,7 +32,7 @@ export default function Contact() {
               <h4>Please Reach Out and Send me a Message!</h4>
               <h6>I'll try to get back to you as soon as possible</h6>
             </div>
-            <button className = "btn btn-primary align-items-center d-flex flex-column custom-btn" onClick={submitMessage}>
+            <button className = "btn btn-primary align-items-center justify-content-center d-flex flex-column custom-btn" onClick={submitMessage}>
               <FontAwesomeIcon icon={faEnvelope} />
               <span>Send Email</span>
             </button>
