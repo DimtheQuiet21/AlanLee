@@ -2,7 +2,7 @@ export default function About() {
   const font = 'Alegreya';
 
   const blurb_style = {
-    "font-family" : font,
+    "fontFamily" : font,
     "width":"40%",
     "margin":"2rem"
   };

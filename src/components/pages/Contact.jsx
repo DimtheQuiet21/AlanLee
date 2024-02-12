@@ -28,13 +28,22 @@ export default function Contact() {
           <h6>I'll try to get back to you as soon as possible</h6>
           <br></br>
           <div className ="form">
-            <h4>Your Name: </h4>
-            <input id = "formName" placeholder="Your Name (Required)"></input>
+            <h4>Name: </h4>
+            <input id = "formName" placeholder="(Required)" style = {{ width: "-webkit-fill-available"}}></input>
             <br></br>
-            <h4>Your Email:</h4>
-            <input id = "formEmail" placeholder=" Your Email (Required)"></input>
+            <h4>Email:</h4>
+            <input id = "formEmail" placeholder="(Required)" style = {{ width: "-webkit-fill-available"}}></input>
             <br></br>
-            <input id = "formMessage" placeholder="Please Leave a Short Message"></input>
+            <h4>Message:</h4>
+            <input 
+              id = "formMessage"
+              placeholder="Please Leave a Short Message"
+              style = {
+                {
+                  width: "-webkit-fill-available",
+                  height: "20vw"
+                }
+              }> </input>
             <br></br>
             <button className = "btn" onClick={submitMessage}>Submit</button>
           </div>
