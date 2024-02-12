@@ -27,6 +27,14 @@
   display: block;
 }
 
+.custom-btn {
+  background-color: rgb(8, 138, 23);
+  border-color: rgb(237, 175, 33);
+}
+
+.custom-btn:hover {
+  background-color: rgb(6, 68, 17);
+}
 
 @media (min-width: 768px) {
     .flex-direction-switch {
