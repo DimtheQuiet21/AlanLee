@@ -4,7 +4,29 @@ import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
 export default function Resume() {
 
 const iconstyle = {
-  "height":"100px"
+  "height":"100px",
+  "position": "absolute",
+  "top": "50%",
+  "left": "50%",
+  "transform": "translate(-50%, -50%)",
+  "zIndex": "1"
+}
+
+const containerstyle = {
+  "width" : "75vw",
+  "height": "100vw",
+  "backgroundImage": `url('./src/assets/images/CV.png')`,
+  "backgroundSize": "cover",
+  "backgroundRepeat": "no-repeat",
+  "padding":"0px"
+}
+
+const overlaystyle = {
+  "height" : "100%",
+  "width": "100%",
+  "position" : "relative",
+  "backgroundColor" : "rgb(165, 165, 165)",
+  "display":"block"
 }
 
 async function onButtonClick () {
@@ -37,10 +59,11 @@ async function onButtonClick () {
 
     return (
       <div>
-        <h1>Resume</h1>
-        <div className = "container">
-          <FontAwesomeIcon icon={faFileArrowDown} style = {iconstyle} className = "btn" onClick= {onButtonClick} />
-
+        <h1 className = "text-center">Resume</h1>
+        <div className = "container" style = {containerstyle}>
+          <div className= 'overlay' style = {overlaystyle}>
+            <FontAwesomeIcon icon={faFileArrowDown} style = {iconstyle} className = "btn" onClick= {onButtonClick} />
+          </div>
         </div>
       </div>
     );

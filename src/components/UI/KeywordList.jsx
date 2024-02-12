@@ -5,7 +5,7 @@ function KeywordList (props) {
     return ( 
         <ul>
             {list.map ((word,index) => (
-                <li id = {index}>{word}</li>
+                <li id = {index} key = {index}>{word}</li>
             ))}
         </ul>
     )

@@ -1,29 +1,29 @@
 const font = 'Alegreya';
 
 const title_style = {
-    'font-family': font,
-    'font-size': '100px',
+    'fontFamily': font,
+    'fontSize': '100px',
     'color': 'rgb(237, 175, 33)',
-    '-webkit-text-stroke-width': '1px',
-    '-webkit-text-stroke-color': 'black'
+    'WebkitTextStrokeWidth': '1px',
+    'WebkitTextStrokeColor': 'black'
 }
 
 const subtitle_style = {
-    'font-family': font,
-    'font-size': '45px',
+    'fontFamily': font,
+    'fontSize': '45px',
     'color': 'rgb(237, 175, 33)',
-    '-webkit-text-stroke-width': '1px',
-    '-webkit-text-stroke-color': 'black',
+    'WebkitTextStrokeWidth': '1px',
+    'WebkitTextStrokeColor': 'black',
     'margin': 0
 }
 
 const subscript_style = {
-    'font-family': 'Helvetica',
-    'font-weight':'bold',
-    'font-size': '25px',
+    'fontFamily': 'Helvetica',
+    'fontWeight':'bold',
+    'fontSize': '25px',
     'color': 'rgb(249, 236, 207)',
-    '-webkit-text-stroke-width': '1px',
-    '-webkit-text-stroke-color': 'black',
+    'WebkitTextStrokeWidth': '1px',
+    'WebkitTextStrokeColor': 'black',
     'margin': 0
 }
 

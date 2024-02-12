@@ -25,14 +25,14 @@ export default function Container() {
     };
 
     const header_style = {
-      'background-color': 'rgb(8, 138, 23)',
-      'box-shadow': '0 0 10px rgba(0, 0, 0, 0.1)',
+      'backgroundColor': 'rgb(8, 138, 23)',
+      'boxShadow': '0 0 10px rgba(0, 0, 0, 0.1)',
       'border': '20px solid transparent',
-      'border-image-source':'url("src/assets/images/border1.png")',
-      'border-image-slice': '90', /* Define slicing and fill */
-      'border-image-width': '45px', /* Set border image width */
-      'border-image-repeat': 'round', /* Set border image repeat mode */
-      'align-items':'center'
+      'borderImageSource':'url("src/assets/images/border1.png")',
+      'borderImageSlice': '90', /* Define slicing and fill */
+      'borderImageWidth': '45px', /* Set border image width */
+      'borderImageRepeat': 'round', /* Set border image repeat mode */
+      'alignItems':'center'
   }
 
   return (

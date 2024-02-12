@@ -16,6 +16,18 @@
     font-family : 'Alegreya';
 }
 
+.overlay {
+  opacity: 0;
+  display: none;
+  transition: opacity 0.75s ease; /* Transition effect for smooth opacity change */
+}
+
+.overlay:hover {
+  opacity: 0.75;
+  display: block;
+}
+
+
 @media (min-width: 768px) {
     .flex-direction-switch {
       flex-direction: row;
