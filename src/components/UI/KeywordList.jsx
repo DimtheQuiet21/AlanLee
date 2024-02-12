@@ -4,7 +4,7 @@ function KeywordList (props) {
 
     return ( 
         <div className="col">
-            <ul className = "d-flex justify-content-center" style = {{flexWrap:"wrap"}}>
+            <ul className = "d-flex justify-content-center ps-0 " style = {{flexWrap:"wrap"}}>
                 {list.map ((word,index) => (
                     <li className ="m-3" id = {index} key = {index}>{word}</li>
                 ))}
